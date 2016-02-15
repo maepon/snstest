@@ -1,0 +1,72 @@
+body
+{
+    line-height: 1.6;
+
+    margin: 0;
+    padding: 0;
+}
+
+.pageHeader
+{
+    margin-bottom: 2em;
+    padding: 1em;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #1a77b4;
+}
+
+.profile
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 .5em;
+}
+.profile__member
+{
+    float: left;
+
+    box-sizing: border-box;
+    width: 33.333333%;
+    padding: 0 .5em;
+}
+.profile__member:nth-child(odd)
+{
+    color: #fff;
+    background-color: #1a77b4;
+}
+.profile__data
+{
+    float: left;
+
+    box-sizing: border-box;
+    width: 50%;
+}
+.profile__data p
+{
+    margin: 0;
+}
+.profile__image
+{
+    float: right;
+
+    box-sizing: border-box;
+    width: 50%;
+
+    text-align: center;
+}
+.profile:after
+{
+    display: block;
+    clear: both;
+
+    content: '';
+}
+
+.siteFooter
+{
+    text-align: center;
+}
+
+/*# sourceMappingURL=to.css.map */

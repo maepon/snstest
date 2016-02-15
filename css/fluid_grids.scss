@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+.pageWrapper {
+}
+.pageHeader {
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: #1A77B4;
+  color: #fff;
+  text-align: center;
+  &__corpName {
+  }
+  &__pageTitle {
+  }
+}
+.profile {
+  margin: 0 auto;
+  padding: 0 0.5em;
+  max-width: 1200px;
+  &__member {
+    float: left;
+    width: 33.333333%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 0.5em;
+    &:nth-child(odd){
+      background-color: #1A77B4;
+      color: #fff;
+    }
+  }
+  &__data {
+    float: left;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    p{
+      margin: 0;
+    }
+  }
+  &__name {
+  }
+  &__text {
+  }
+  &__image {
+    float: right;
+    width: 50%;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  &:after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+}
+.siteFooter {
+  text-align: center;
+}
+.copyright {
+}
