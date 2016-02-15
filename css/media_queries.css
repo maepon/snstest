@@ -80,8 +80,7 @@ body {
 
 .social-button{
   display: table-cell;
-  vertical-align: bottom;
-  height: 20px;
+  vertical-align: top;
 }
 
 /*# sourceMappingURL=media_queries.css.map */
