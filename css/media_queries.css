@@ -74,13 +74,13 @@ body {
 }
 
 .social{
-  /*display: table;*/
   margin: 20px 10px;
+  line-height: 1;
 }
 
 .social-button{
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 /*# sourceMappingURL=media_queries.css.map */
