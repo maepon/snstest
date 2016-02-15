@@ -74,12 +74,12 @@ body {
 }
 
 .social{
-  display: table;
+  /*display: table;*/
   margin: 20px 10px;
 }
 
 .social-button{
-  display: table-cell;
+  display: inline-block;
   vertical-align: top;
 }
 
