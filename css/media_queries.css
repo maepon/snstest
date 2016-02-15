@@ -81,6 +81,7 @@ body {
 .social-button{
   display: table-cell;
   vertical-align: bottom;
+  height: 20px;
 }
 
 /*# sourceMappingURL=media_queries.css.map */
