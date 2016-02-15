@@ -79,7 +79,7 @@ body {
 
 .social-button{
   display: inline-block;
-  vertical-align: bottom;
+  vertical-align: top;
 }
 
 /*# sourceMappingURL=media_queries.css.map */
