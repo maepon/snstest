@@ -5,6 +5,10 @@ body {
   font-family: sans-serif;
 }
 
+a{
+  color: #009;
+}
+
 .pageHeader {
   margin-bottom: 2em;
   padding: 1em;
